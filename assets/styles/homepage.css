@@ -49,7 +49,7 @@
 	.events .parent
 	{
 		position: relative;
-		left: 8vw;
+		left: 6vw;
 	}
 	@media (max-width: 576px)
 	{
@@ -57,7 +57,11 @@
 		{
 			position: relative;
 			left: 8vw;
-		}
+        }
+        .events .parent
+        {
+            left: 8vw;
+        }
 	}
 	.news
 	{
