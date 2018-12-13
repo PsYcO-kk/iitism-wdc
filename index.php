@@ -3,7 +3,8 @@
 	<head>
 
 		<?php include('components/links.php'); ?>
-
+		
+		<?php include('components/scripts.php'); ?>
 		<title>Home | IIT (ISM), Dhanbad</title>
 
 	</head>
@@ -12,11 +13,8 @@
 		<?php include('components/header.php'); ?>
 
 		<div class="body">
+			<?php include('components/homepage.php'); ?>
+			<?php include('components/footer.php'); ?>
 		</div>
-
-		<?php include('components/footer.php'); ?>
-
-		<?php include('components/scripts.php'); ?>
-
 	</body>
 </html>

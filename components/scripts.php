@@ -2,5 +2,4 @@
 <script src="assets/scripts/popper.min.js"></script>
 <script src="assets/scripts/bootstrap.min.js"></script>
 <script src="assets/scripts/fontawesome-all.min.js"></script>
-
 <script src="assets/scripts/main.js"></script>

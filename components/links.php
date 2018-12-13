@@ -5,4 +5,7 @@
 
 <link rel="stylesheet" href="assets/styles/main.css">
 
+<link rel="stylesheet" href="assets/styles/homepage.css">
+
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
