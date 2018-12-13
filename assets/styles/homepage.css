@@ -73,6 +73,10 @@
 	.news .content .marque a
 	{
 		color: black;
+    }
+    .news .content .marque a:hover
+	{
+		color: blue;
 	}
 	.carousel-fade .carousel-inner .corousel-item
 	{
