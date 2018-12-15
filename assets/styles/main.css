@@ -1,0 +1,206 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 300px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Khand', sans-serif;
+}
+
+a {
+	outline: 0;
+}
+
+.remove-extra-space {
+	margin: 0;
+	padding: 0;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.hvr-dropdown {
+	position: relative;
+}
+
+.hvr-dropdown__menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	text-align: left;
+	min-width: 200px;
+	background-color: #eee;
+	transition: all 0.3s ease 0s;
+	z-index: 10;
+}
+
+.hvr-dropdown:hover .hvr-dropdown__menu {
+	display: block;
+}
+
+.hvr-dropdown__menu-item {
+	display: block;
+	color: inherit;
+	text-decoration: inherit;
+	padding: 7px 20px;
+	color: #888;
+	font-size: 15px;
+}
+
+.hvr-dropdown__menu-item:hover {
+	background-color: #ccc;
+	text-decoration: inherit;
+	color: #555;
+}
+
+.shadow-effect-1 {
+	box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.2);
+}
+
+/* Start of Header */
+.top-header {
+	padding: 5px 10px;
+	text-align: right;
+	background-color: rgb(58,109,255);
+	color: #ffffff;
+}
+
+.top-header a {
+	color: #ffffff;
+	text-decoration: inherit;
+	margin: 0 5px;
+	transition: all 0.3s ease 0s;
+}
+
+.top-header a:hover {
+	color: #000000;
+}
+
+.middle-header {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+}
+
+.middle-header h4, .middle-header h5 {
+	color: #555555;
+}
+
+.header-logo__container img {
+	height: 110px;
+	padding: 0 5px;
+}
+
+.institute-name {
+	flex: 1 1 0;
+	padding: 5px;
+}
+
+.bottom-header {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+
+.bottom-header .menu-item {
+	padding: 10px 20px;
+	/* border: 1px solid #eee; */
+	border-top: 2px solid #ffffff;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: rgb(58,109,255);
+}
+
+.bottom-header .menu-item:hover {
+	background-color: #eee;
+	border-top: 2px solid rgb(58,109,255);
+	box-shadow: inset 8px 0px 8px -7px rgba(0, 0, 0, 0.2), inset -8px 0px 8px -7px rgba(0, 0, 0, 0.2);
+}
+/* End of Header */
+
+/* Start of Footer */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+}
+
+.top-footer {
+	padding: 10px 0;
+}
+
+.top-footer .division {
+	margin: 20px;
+}
+
+.top-footer h4 {
+	color: #555;
+	text-transform: uppercase;
+}
+
+.top-footer .links div {
+	margin: 0 10px;
+}
+
+.top-footer .links span {
+	color: #555;
+	margin-right: 7px;
+}
+
+.top-footer .links a {
+	color: #888;
+	transition: all 0.3s ease 0s;
+}
+
+.top-footer .links a:hover {
+	color: #555;
+}
+
+.bottom-footer {
+	background-color: rgb(58,109,255);
+	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Khand', sans-serif;
+	padding: 0 50px;
+}
+
+.bottom-footer .social-links span {
+	padding: 0 3px;
+	height: 100%;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.bottom-footer .division {
+	margin: 3px 0;
+}
+
+.bottom-footer a {
+	color: #ffffff;
+	text-decoration: inherit;
+	margin: 0 5px;
+	transition: all 0.3s ease 0s;
+}
+
+.bottom-footer a:hover {
+	color: #000000;
+}
+/* End of Footer */
