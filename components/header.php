@@ -1,4 +1,8 @@
-<nav>
+<?php
+	error_reporting(0);
+?>
+
+<nav class="header">
 	<div class="top-header">
 		<span>
 			<a href="cdcdcd">Faculty</a>
