@@ -5,13 +5,16 @@
 <nav class="header">
 	<div class="top-header">
 		<span>
-			<a href="cdcdcd">Faculty</a>
-		</span>|
-		<span>
 			<a href="cdcdcdc">MIS</a>
 		</span>|
 		<span>
 			<a href="cdcdcdc">Mail</a>
+		</span>|
+		<span>
+			<a href="cdcdcd">Faculty</a>
+		</span>|
+		<span>
+			<a href="cdcdcd">Alumni</a>
 		</span>
 	</div>
 	<div class=" shadow-effect-1">
@@ -55,6 +58,15 @@
 				</div>
 				<div class="menu-item hvr-dropdown">
 					Research
+					<div class="hvr-dropdown__menu">
+						<a href="" class="hvr-dropdown__menu-item">cscascsa</a>
+						<a href="" class="hvr-dropdown__menu-item">scacsac</a>
+						<a href="" class="hvr-dropdown__menu-item">cascsacas</a>
+						<a href="" class="hvr-dropdown__menu-item">cascas</a>
+					</div>
+				</div>
+				<div class="menu-item hvr-dropdown">
+					Campus Life
 					<div class="hvr-dropdown__menu">
 						<a href="" class="hvr-dropdown__menu-item">cscascsa</a>
 						<a href="" class="hvr-dropdown__menu-item">scacsac</a>
