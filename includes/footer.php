@@ -1,6 +1,6 @@
 <footer class="footer">
 	<?php
-		if(end(explode('/', $_SERVER['SCRIPT_FILENAME'])) == 'index.php'){
+		// if(end(explode('/', $_SERVER['SCRIPT_FILENAME'])) == 'index.php'){
 	?>
 		<div class="top-footer">
 			<div class="container">
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</div>
-	<?php } ?>
+	<?php // } ?>
 
 	<div class="bottom-footer">
 		<div class="row remove-extra-space">

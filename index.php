@@ -4,13 +4,13 @@
 
 		<title>Home | IIT (ISM) Dhanbad</title>
 
-		<?php include('components/links.php'); ?>
+		<?php include('includes/links.php'); ?>
 		<link rel="stylesheet" href="assets/styles/home.css">
 
 	</head>
 	<body>
 
-		<?php include('components/header.php'); ?>
+		<?php include('includes/header.php'); ?>
 
 		<div class="body">
 
@@ -249,9 +249,9 @@
 			</div>
 		</div>
 
-		<?php include('components/footer.php'); ?>
+		<?php include('includes/footer.php'); ?>
 
-		<?php include('components/scripts.php'); ?>
+		<?php include('includes/scripts.php'); ?>
 		<script src="assets/scripts/home.js"></script>
 
 	</body>

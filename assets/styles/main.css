@@ -169,6 +169,7 @@ ul {
 /* Start of Footer */
 .footer {
 	margin-top: 75px;
+	width: 100%;
 }
 
 .top-footer {
@@ -242,7 +243,8 @@ ul {
 
 
 section {
-	margin: 50px 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 section .content {
