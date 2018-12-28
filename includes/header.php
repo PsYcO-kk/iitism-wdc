@@ -21,7 +21,7 @@
 		<div class="container">
 			<div class="middle-header">
 				<div class="header-logo__container">
-					<a href="index.php"><img src="/iitism-wdc/assets/images/logo.png" class="img-fluid" alt="logo" /></a>
+					<a href="/iitism-wdc/index.php"><img src="/iitism-wdc/assets/images/logo.png" class="img-fluid" alt="logo" /></a>
 				</div>
 				<div class="institute-name">
 					<h4>भारतीय प्रौद्योगिकी संस्थान (भारतीय खनि विद्यापीठ) धनबाद</h4>
