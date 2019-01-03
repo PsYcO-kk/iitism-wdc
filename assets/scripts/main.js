@@ -11,6 +11,30 @@ var carouselTimer;
 $(document).ready(function(){
 	carouselTimer = set_carousel_timer(classNames, slides, 10000);
 
+	$('#navbar-menu-toggler').click(function(){
+		$(this).toggleClass('open');
+		$(this).find('.label').toggleClass('hidden').toggleClass('visible');
+		$('.collapsed-header .menu-links').toggleClass('inactive').toggleClass('active');
+	});
+
+	$('#quick-links-menu-toggler').click(function(){
+		$(this).toggleClass('open');
+		$('.collapsed-quick-links__list .menu-links').toggleClass('inactive').toggleClass('active');
+	});
+
+	$(window).on('click', function(event){
+		if (!$('#navbar-menu-toggler').is(event.target) && $('#navbar-menu-toggler').has(event.target).length === 0  && !$('.collapsed-header .menu-links').is(event.target) && $('.collapsed-header .menu-links').has(event.target).length === 0) {
+			$('#navbar-menu-toggler').removeClass('open');
+			$('#navbar-menu-toggler').find('.label').removeClass('visible').addClass('hidden');
+			$('.collapsed-header .menu-links').removeClass('active').addClass('inactive');
+		}
+		if (!$('#quick-links-menu-toggler').is(event.target) && $('#quick-links-menu-toggler').has(event.target).length === 0  && !$('.collapsed-quick-links__list .menu-links').is(event.target) && $('.collapsed-quick-links__list .menu-links').has(event.target).length === 0) {
+			$('#quick-links-menu-toggler').removeClass('open');
+			$('#quick-links-menu-toggler').find('.label').removeClass('visible').addClass('hidden');
+			$('.collapsed-quick-links__list .menu-links').removeClass('active').addClass('inactive');
+		}
+	});
+
 	// Find all YouTube videos
 	var $allVideos = $("iframe[src*='youtube']");
 

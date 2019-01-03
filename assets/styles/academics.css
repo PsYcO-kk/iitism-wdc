@@ -1,0 +1,121 @@
+.sec-1 {
+	background-image: url('../images/academics.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 350px;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sec-1 .icon {
+	font-size: 75px;
+	color: #eee;
+}
+
+.heading {
+	display: inline-block;
+	background-image: linear-gradient(to right, rgb(58,109,255), rgb(58,109,255));
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 3px;
+    transition: background-size .5s ease;
+}
+
+.sec-1 .heading {
+	color: #eee;
+	background-image: linear-gradient(to right, #eee, #eee);
+    background-position: bottom center;
+    background-size: 75% 5px;
+}
+
+.sec-2 p {
+	margin: 0 10%;
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+}
+
+.heading__container {
+	display: flex;
+	justify-content: center;
+}
+
+.heading__container .heading {
+    background-position: bottom center;
+}
+
+.sec-3 .heading__container .heading {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.sec-3:hover .heading__container .heading {
+    background-size: 100% 3px;
+}
+
+.quick-links__container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.quick-link__card {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	background-color: #ccc;
+	margin: 10px 20px;
+	padding: 15px 20px;
+	cursor: pointer;
+	width: 330px;
+}
+
+.quick-link__card .heading {
+	background-image: linear-gradient(to right, #333, #333);
+}
+
+.quick-link__card:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.quick-link__card:hover .heading {
+    background-size: 100% 3px;
+}
+
+.quick-link__card p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+
+
+/* Start of Departments */
+.departments section {
+	padding: 0 5%;
+}
+
+.departments section .heading {
+	margin-bottom: 20px;
+}
+
+.departments section:hover .heading {
+    background-size: 100% 3px;
+}
+
+.departments section p {
+	color: #555;
+	text-align: justify;
+}
+
+ul.departments-list {
+	margin-top: 30px;
+	padding: 0 5%;
+	list-style-type: square;
+}
+/* End of Departments */

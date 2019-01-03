@@ -9,11 +9,11 @@
 						<div class="division">
 							<h4>Academics</h4>
 							<div class="links">
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
 							</div>
 						</div>
 					</div>
@@ -21,9 +21,9 @@
 						<div class="division">
 							<h4>Research</h4>
 							<div class="links">
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
 							</div>
 						</div>
 					</div>
@@ -31,11 +31,11 @@
 						<div class="division">
 							<h4>Deans' Corner</h4>
 							<div class="links">
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
 							</div>
 						</div>
 					</div>
@@ -43,13 +43,13 @@
 						<div class="division">
 							<h4>Quick Links</h4>
 							<div class="links">
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
-								<div><span class="fas fa-long-arrow-alt-right"></span><a href="acacs">cdc</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
+								<div><span class="fas fa-long-arrow-alt-right"></span><a href="">Lorem ipsum</a></div>
 							</div>
 						</div>
 					</div>
@@ -63,10 +63,10 @@
 			<div class="col-md-4 remove-extra-space">
 				<div class="division">
 					<span>
-						<a href="brbr">Site Map</a>
+						<a href="">Site Map</a>
 					</span>|
 					<span>
-						<a href="dvbd">Feedback</a>
+						<a href="">Feedback</a>
 					</span>
 				</div>
 			</div>
@@ -77,10 +77,10 @@
 			</div>
 			<div class="col-md-4 remove-extra-space">
 				<div class="social-links text-align-right">
-					<a href="sdcd">
+					<a href="http://www.facebook.com/iitism/">
 						<span class="fab fa-facebook-f"></span>
 					</a>
-					<a href="sdvbv">
+					<a href="http://www.twitter.com/iitismd">
 						<span class="fab fa-twitter"></span>
 					</a>
 				</div>

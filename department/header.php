@@ -1,6 +1,6 @@
 <?php
 	error_reporting(0);
-	include_once('config.php');
+	include_once('../includes/config.php');
 ?>
 
 <nav class="header">
@@ -28,6 +28,10 @@
 					<h4>भारतीय प्रौद्योगिकी संस्थान (भारतीय खनि विद्यापीठ) धनबाद</h4>
 					<h5>Indian Institute of Technology (Indian School of Mines) Dhanbad</h5>
 				</div>
+				<div style="text-align: right;">
+					<h5 class="footer__department-name">DEPARTMENT OF</h5>
+					<h3 class="footer__department-name">ENVIRONMENTAL SCIENCE AND ENGINEERING</h3>
+				</div>
 			</div>
 			<div class="collapsed-container collapsed-header">
 				<div id="navbar-menu-toggler" class="menu-toggle">
@@ -44,69 +48,57 @@
 				</div>
 				<ul class="menu-links inactive">
 					<li>
-						<a href="<?php echo BASE_URL . 'institute'; ?>">Institute</a>
-						<ul class="nested-menu-links">
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Overview</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Map</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Facts & Statistics</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Vision & Mission</a></li>
-						</ul>
+						<a href="">About</a>
 					</li>
 					<li>
-						<a href="">Admissions</a>
-					</li>
-					<li>
-						<a href="<?php echo BASE_URL . 'academics'; ?>">Academics</a>
-						<ul class="nested-menu-links">
-							<li><a href="<?php echo BASE_URL . 'academics/departments.php'; ?>"><i class="fas fa-caret-right"></i> &nbsp; Departments</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Courses</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Centres</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Academic Calendar</a></li>
-							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Central Library</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="">Administration</a>
+						<a href="">Programs</a>
 					</li>
 					<li>
 						<a href="">Research</a>
 					</li>
 					<li>
-						<a href="">Campus Life</a>
+						<a href="">People</a>
+						<ul class="nested-menu-links">
+							<li><a href="faculty.php"><i class="fas fa-caret-right"></i> &nbsp; Faculty</a></li>
+							<li><a href=""><i class="fas fa-caret-right"></i> &nbsp; Alumni</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">Activities</a>
+					</li>
+					<li>
+						<a href="">Facilities</a>
+					</li>
+					<li>
+						<a href="">Society</a>
 					</li>
 				</ul>
 			</div>
 			<div class="bottom-header">
 				<div class="menu-item hvr-dropdown" onclick="location='<?php echo BASE_URL . 'institute'; ?>'">
-					Institute
-					<div class="hvr-dropdown__menu">
-						<a href="" class="hvr-dropdown__menu-item">Overview</a>
-						<a href="" class="hvr-dropdown__menu-item">Map</a>
-						<a href="" class="hvr-dropdown__menu-item">Facts & Statistics</a>
-						<a href="" class="hvr-dropdown__menu-item">Vision & Mission</a>
-					</div>
+					About
 				</div>
 				<div class="menu-item hvr-dropdown">
-					Admissions
+					Programs
 				</div>
 				<div class="menu-item hvr-dropdown" onclick="location='<?php echo BASE_URL . 'academics'; ?>'">
-					Academics
-					<div class="hvr-dropdown__menu">
-						<a href="<?php echo BASE_URL . 'academics/departments.php'; ?>" class="hvr-dropdown__menu-item">Departments</a>
-						<a href="" class="hvr-dropdown__menu-item">Courses</a>
-						<a href="" class="hvr-dropdown__menu-item">Centres</a>
-						<a href="" class="hvr-dropdown__menu-item">Academic Calendar</a>
-						<a href="" class="hvr-dropdown__menu-item">Central Library</a>
-					</div>
-				</div>
-				<div class="menu-item hvr-dropdown">
-					Administration
-				</div>
-				<div class="menu-item hvr-dropdown">
 					Research
 				</div>
 				<div class="menu-item hvr-dropdown">
-					Campus Life
+					People
+					<div class="hvr-dropdown__menu">
+						<a href="faculty.php" class="hvr-dropdown__menu-item">Faculty</a>
+						<a href="" class="hvr-dropdown__menu-item">Alumni</a>
+					</div>
+				</div>
+				<div class="menu-item hvr-dropdown">
+					Activities
+				</div>
+				<div class="menu-item hvr-dropdown">
+					Facilities
+				</div>
+				<div class="menu-item hvr-dropdown">
+					Society
 				</div>
 			</div>
 		</div>

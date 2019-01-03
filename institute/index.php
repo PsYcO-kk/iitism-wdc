@@ -1,3 +1,4 @@
+<?php include_once('../includes/config.php'); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,7 +6,7 @@
 		<title>Institute | IIT (ISM) Dhanbad</title>
 
 		<?php include('../includes/links.php'); ?>
-		<link rel="stylesheet" href="/iitism-wdc/assets/styles/institute.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL . 'assets/styles/institute.css'; ?>">
 
 	</head>
 	<body>
@@ -17,7 +18,7 @@
 				<div class="row remove-extra-space align-items-center">
 					<div class="col-md-5 remove-extra-space">
 						<div class="thumb">
-							<img src="/iitism-wdc/assets/images/ism.jpg" class="img-fluid" />
+							<img src="<?php echo BASE_URL . 'assets/images/ism.jpg'; ?>" class="img-fluid" />
 							<div class="vertical-link">
 								<h3 class="heading">Discover More</h3>
 							</div>
@@ -57,7 +58,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, est quis congue antiopam an. Sit ea melius cetero aliquam. Eu tota repudiare quo, elit dicit populo cum ei. In quo falli putent equidem, eam porro postulant ex. Vim justo nullam deserunt ad, at eirmod menandri sea.
 							</p>
-							<a href="dvsd" role="button" class="btn btn-outline-primary">MORE INFORMATION &nbsp; <i class="fas fa-angle-double-right"></i></a>
+							<a href="" role="button" class="btn btn-outline-primary">MORE INFORMATION &nbsp; <i class="fas fa-angle-double-right"></i></a>
 						</div>
 					</div>
 					<div class="col-md-6 remove-extra-space">
@@ -66,7 +67,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, est quis congue antiopam an. Sit ea melius cetero aliquam. Eu tota repudiare quo, elit dicit populo cum ei. In quo falli putent equidem, eam porro postulant ex. Vim justo nullam deserunt ad, at eirmod menandri sea.
 							</p>
-							<a href="dvsd" role="button" class="btn btn-outline-primary">MORE INFORMATION &nbsp; <i class="fas fa-angle-double-right"></i></a>
+							<a href="" role="button" class="btn btn-outline-primary">MORE INFORMATION &nbsp; <i class="fas fa-angle-double-right"></i></a>
 						</div>
 					</div>
 				</div>

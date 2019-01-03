@@ -1,0 +1,130 @@
+.heading {
+	display: inline-block;
+	background-image: linear-gradient(to right, rgb(58,109,255), rgb(58,109,255));
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 3px;
+    transition: background-size .5s ease;
+}
+
+.department-page__heading {
+	background-color: #777;
+	color: #fff;
+	padding: 5px 0;
+	text-align: center;
+	margin: 0 20px;
+	border-radius: 30px;
+}
+
+section:hover .heading {
+    background-size: 100% 3px;
+}
+
+.inner-body {
+	margin: 30px;
+}
+
+.notices__container {
+	border: 1px solid #ccc;
+	padding: 20px 30px;
+}
+
+.buttons-panel a {
+	border-radius: 0;
+	padding: 5px 10px;
+}
+
+.notices__container .content {
+	height: 225px;
+	overflow-y: auto;
+}
+
+.notices__container .list-item span {
+	color: rgba(0, 0, 0, 0.5);
+	margin-right: 10px;
+	line-height: 24px;
+}
+
+.notices__container .list-item.new-notice span {
+	color: rgb(255,140,0);
+}
+
+.achievements-card .list-item {
+	align-items: center;
+}
+
+.about-card .text {
+	padding: 20px 50px;
+	text-align: justify;
+}
+
+.main .sec-3 {
+	border-top: 2px solid #ccc;
+}
+
+.footer__department-name {
+	margin: 0;
+	color: rgb(58,109,255);
+}
+
+.footer__department-info {
+	font-family: 'Khand', sans-serif;
+	font-size: 20px;
+}
+
+.footer__department-info .contact a, .footer__department-info .email a {
+	font-style: italic;
+}
+
+.faculty .sec-2, .faculty .sec-3, .faculty .sec-4 {
+	padding: 0 5%;
+}
+
+.faculty .card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.faculty .person-card {
+	display: flex;
+	border: 1px solid #ccc;
+	padding: 20px 10px;
+	margin: 10px auto;
+	align-items: center;
+	max-width: 400px;
+	width: 100%;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.person-card:hover {
+	box-shadow: 0 3px 30px -15px rgba(0,0,0,.5);
+}
+
+.person-card .avatar img {
+	height: 120px;
+	width: 120px;
+	border-radius: 60px;
+	border: 3px solid #fff;
+	margin: 0 15px;
+	box-shadow: 0 3px 30px -15px rgba(0,0,0,.4);
+}
+
+.person-card .details {
+	flex: 1 1 0;
+}
+
+.person-card .details div {
+	margin: 5px 0;
+}
+
+.person-card .details .name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.person-card .details .contact, .person-card .details .email{
+	font-size: 14px;
+	font-style: italic;
+}
